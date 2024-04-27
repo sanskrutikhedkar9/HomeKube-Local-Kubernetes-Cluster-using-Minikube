@@ -34,4 +34,4 @@ jobs:
     - name: Apply Kubernetes Configurations
       run: |
         minikube kubectl -- apply -f deployment.yaml
-        minikube kubectl -- apply -f service.yaml
+        minikube kubectl -- apply -f newapp-service.yaml
